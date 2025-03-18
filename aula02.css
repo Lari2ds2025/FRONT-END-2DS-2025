@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+ul {
+    background-color: rgba(240, 248, 255, 0.375);
+    width: 200px;
+}
+
+ul li {
+    color:lightpink
+}
+
+h1{
+    color:rgb(251, 5, 5)
+    
+}
+
+#container {
+       background-color:lightpink;
+       width: 100%;
+       height: 400px;
+
+       display: flex;
+       align-items: center; /*alinha verticalmente*/
+       justify-content: space-evenly; /*alinha horiontalmente*/
+}
+
+.caixa{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
